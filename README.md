@@ -1,9 +1,23 @@
-# Vue 3 + TypeScript + Vite
+# Vue-face-detector
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+在 Vue 项目中，使用 face-api.js 实现前端人脸识别功能
 
-## Recommended Setup
+## 运行
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+npm
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+```shell
+npm run dev
+```
+
+yarn
+
+```shell
+yarn dev
+```
+
+## face-api.js
+
+项目地址：https://github.com/vladmandic/face-api
+
+官方文档：https://justadudewhohacks.github.io/face-api.js/docs/index.html
